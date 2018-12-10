@@ -35,6 +35,17 @@ a {
     color: white;
 }
 /*header*/
+
+/*menu*/
+#menu {
+    background-color: #1e3668;
+    padding: 1%;
+}
+#menu a{
+    margin:5%;
+    text-decoration-line: none;
+
+}
  /*hero-image*/
         #hero {
             width: 100%;

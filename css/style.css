@@ -34,6 +34,11 @@ a {
     font-family: 'arial', sans-serif;
     color: white;
 }
+/*header*/
+ /*hero-image*/
+        #hero {
+            width: 100%;
+        }
 /*mobil*/
 /*åbningstider*/
 .Schedule {
@@ -64,5 +69,5 @@ a {
     
    /*PC*/ 
     @media (min-width:1025px) {
-        
+       
 }

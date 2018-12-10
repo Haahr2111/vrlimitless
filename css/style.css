@@ -35,17 +35,29 @@ a {
     color: white;
 }
 /*mobil*/
+/*åbningstider*/
+.Schedule {
+    margin-top: -100px;
+    width: 200px;
+    display: none;
+}
 
-
+.Schedule, h2 {
+    color: white;
+}
 
 
 /*taplet*/
 @media (min-width:420px) {
+    
+    /*åbningstider*/
     .Schedule {
         margin-top: 1px;
         height: 50px;
         width: 300px;
         display: none;
+        
+    
     }
 }
     

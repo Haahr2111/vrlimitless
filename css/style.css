@@ -38,8 +38,12 @@ a {
 
 /*menu*/
 #menu {
+    position:fixed;
     background-color: #1e3668;
     padding: 1%;
+    width: 100%;
+    z-index: 1;
+    
 }
 #menu a{
     margin:5%;
@@ -48,14 +52,15 @@ a {
 }
  /*hero-image*/
         #hero {
+            position: relative;
             width: 100%;
             z-index: -1;
         }
 
 #logo {
     position: absolute;
-    top: 35%;
-    right: 20%;
+    top: 30%;
+    left: 60%;
     width: 20%;
 }
 

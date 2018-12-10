@@ -56,6 +56,9 @@ a {
 /*mobil*/
 /*åbningstider*/
 .Schedule {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
     margin-top: -100px;
     width: 200px;
     display: none;

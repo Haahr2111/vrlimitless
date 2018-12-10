@@ -38,24 +38,31 @@ a {
 
 /*menu*/
 #menu {
+    position:fixed;
     background-color: #1e3668;
     padding: 1%;
+    width: 100%;
+    z-index: 1;
 }
 #menu a{
     margin:5%;
     text-decoration-line: none;
+    opacity: 1;
+   
 
 }
  /*hero-image*/
         #hero {
+            position: relative;
             width: 100%;
             z-index: -1;
+            opacity: 0.9;
         }
 
 #logo {
     position: absolute;
-    top: 35%;
-    right: 20%;
+    top: 30%;
+    left: 60%;
     width: 20%;
 }
 

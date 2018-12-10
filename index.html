@@ -19,6 +19,28 @@
       <section id="hero-image">
           
       </section>
+      <!-- åbningstider -->
+              <div class="Schedule" id="Sun">
+            <h2 class="aabent">Åbent i dag:<br>11-18</h2>
+        </div>
+        <div class="Schedule" id="Mon">
+            <h2 class="aabent">Lukket</h2>
+        </div>
+        <div class="Schedule" id="Tue">
+            <h2 class="aabent">Lukket</h2>
+        </div>
+        <div class="Schedule" id="Wed">
+            <h2 class="aabent">Åbent i dag:<br>13-21</h2>
+        </div>
+        <div class="Schedule" id="Thu">
+            <h2 class="aabent">Åbent i dag:<br>13-21</h2>
+        </div>
+        <div class="Schedule" id="Fri">
+            <h2 class="aabent">Åbent i dag:<br>11-23</h2>
+        </div>
+        <div class="Schedule" id="Sat">
+            <h2 class="aabent">Åbent i dag:<br>11-23</h2>
+        </div>
   </header>
    
    <h1>
@@ -31,5 +53,16 @@
 <footer>
     
 </footer>
+
+
 </body>
+<!--Javascript taget fra https://www.codingforums.com/javascript-programming/222935-automatically-changing-text-daily-code.html-->
+<script type="text/javascript">
+    var scheduleDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    onload = function() {
+        var today = new Date();
+        var DOW = today.getDay();
+        document.getElementById(scheduleDays[DOW]).style.display = 'block';
+    }
+</script>
 </html>

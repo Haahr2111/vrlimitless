@@ -6,9 +6,34 @@
 }
 
 body {
+    background-image: url(images/limitless-baggrund.png);
+    
     
 }
 
+/*tekst*/
+
+@font-face {
+    
+font-family: 'orbitron';
+    src: url('orbitron-bold.otf') format:'otf';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'orbitron', sans-serif;
+    color: #ffa852;
+}
+
+p,
+a {
+    font-family: 'arial', sans-serif;
+    color: white;
+}
 /*mobil*/
 
 

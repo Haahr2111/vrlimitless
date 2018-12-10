@@ -1,0 +1,26 @@
+/*global*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    
+}
+
+/*mobil*/
+
+
+
+
+/*taplet*/
+@media (min-width:420px) {
+    
+}
+    
+    
+   /*PC*/ 
+    @media (min-width:1025px) {
+        
+}

@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
-    <meta name="description"content="">
+    <meta name="description" content="">
     <!--HUSK AT UDFYLDE BESKRIVELSE TIL SEO -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Limitless</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 
 <body>
-  <header>
-      <section id="menu">
-          
-      </section>
-      
-      <section id="hero-image">
-          
-      </section>
-      <!-- åbningstider -->
-              <div class="Schedule" id="Sun">
+    <header>
+        <section id="menu">
+
+        </section>
+
+        <section id="hero-image">
+
+        </section>
+        <!-- åbningstider -->
+        <div class="Schedule" id="Sun">
             <h2 class="aabent">Åbent i dag:<br>11-18</h2>
         </div>
         <div class="Schedule" id="Mon">
@@ -41,18 +42,37 @@
         <div class="Schedule" id="Sat">
             <h2 class="aabent">Åbent i dag:<br>11-23</h2>
         </div>
-  </header>
-   
-   <h1>
-    Om os
-   </h1>
-   
-   <p>hej med dig jeg hedder kaj</p>
+    </header>
+
+    <h1>
+        Om os
+    </h1>
+
+    <p>hej med dig jeg hedder kaj</p>
 
 
-<footer>
-    
-</footer>
+
+    <footer>
+        <div id="kontaktinfo">
+            <p class="telefon"><a href="tel:31-99-99-11">Tlf.: 31 99 99 11</a></p>
+            <p class="email"><a href="mailto:kontakt@vrlimitless.dk">Email: kontakt@vrlimitless</a></p>
+            <p class="cvr">CVR: 38205544</p>
+        </div>
+        <div id="adresser">
+            <p class="aarhus">Frederiksgade 33 <br> 8000 Århus C</p>
+            <p class="kbh">Nørregade 36 <br>
+                1165 København K</p>
+        </div>
+        <div id="smlogo"></div>
+        <div id="aaben">
+            <h3>Åbningstider</h3>
+            <p>Mandag og tirsdag: Lukket</p>
+            <p>Onsdag og torsdag: 13:00-21:00</p>
+            <p>Fredag og lørdag: 11:00-23:00</p>
+            <p>Søndag: 11:00-18:00</p>
+            <p>Ved større arrangementer holder vi åbent efter aftale.</p>
+        </div>
+    </footer>
 
 
 </body>
@@ -64,5 +84,7 @@
         var DOW = today.getDay();
         document.getElementById(scheduleDays[DOW]).style.display = 'block';
     }
+
 </script>
+
 </html>

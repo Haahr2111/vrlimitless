@@ -8,7 +8,7 @@
 body {
     background-image: url(images/limitless-baggrund.png);
     background-size: contain;
-    
+
 
 
 }
@@ -82,22 +82,23 @@ a:hover {
 video {
     width: 100%;
 }
+
 #video {
     width: 100%;
-    
+
 }
 
 /*Om os*/
 
 #indledning {
     font-weight: bold;
-    width:100%;
+    width: 100%;
 }
 
 #omos {
     margin-top: 5%;
     display: block;
-width: 100%;
+    width: 100%;
 }
 
 #vrgameplay {
@@ -124,7 +125,7 @@ width: 100%;
 h2 {
     display: block;
     margin-right: auto;
-    
+
 }
 
 #infographic h2 {
@@ -140,22 +141,23 @@ h2 {
     text-align: center;
     padding: 6px;
 }
-#intro{
-    
-}
+
+#intro {}
+
 .beskriv {
     padding: 6px;
 }
+
 .spil {
     width: 80%;
-background-color:#4d64ab;
+    background-color: #4d64ab;
     margin-top: 5%;
 }
 
 .players {
     font-family: 'orbitron', sans-serif;
     padding: 6px;
-   
+
 }
 
 .trailer {
@@ -189,6 +191,16 @@ footer #smlogo {
 /*taplet*/
 @media (min-width:420px) {
 
+    /*hero*/
+
+
+    #logo {
+        width: 20%;
+        top: 15%;
+        left: 65%;
+    }
+
+
     /*åbningstider*/
     .Schedule {
         margin-top: 1px;
@@ -198,26 +210,33 @@ footer #smlogo {
 
 
     }
-    
+
 
     /*spil/oplevelser*/
 
 
-.spil {
-    width: 45%;
-    
-
-}
-   
-    
- 
-
-
-/*PC*/
-@media (min-width:1025px) {
-    
-    /*spil/oplevelser*/
     .spil {
-    width: 25%;
-}
+        width: 45%;
+
+
+    }
+
+
+
+
+
+    /*PC*/
+    @media (min-width:1025px) {
+
+         /*hero*/
+
+    #logo {
+        width: 20%;
+        top: 40%;
+        left: 65%;
+    }
+        /*spil/oplevelser*/
+        .spil {
+            width: 25%;
+        }
     }

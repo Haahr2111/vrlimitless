@@ -181,8 +181,6 @@ h2 {
 }
 
 
-
-
 /*footer*/
 footer #smlogo {
     color: white
@@ -225,11 +223,10 @@ footer #smlogo {
         width: 300px;
         display: none;
 
-
 }
     
 
-    .spil {
+.spil {
     width: 25%;
 background-color:#4d64ab;
     margin: 5%;
@@ -272,11 +269,6 @@ background-color:#4d64ab;
     
 }
     
-    
-
-
-
-
     /*PC*/
     @media (min-width:1025px) {
 

@@ -9,6 +9,8 @@
     <title>Limitless</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -51,23 +53,28 @@
             <h2 class="aabent">Åbent i dag:<br>11-23</h2>
         </div>
     </header>
-    
-<div id="videolimit">
-<video src="video/limitless_follow_99mb.mov" type="video/mp4" controls></video></div>
-    
+
+
+<video id="video" preload="true" src="video/limitless_follow_99mb.mov" type="video/mp4" controls></video>
+
 <!-- om os-->
 
- <section id="omos">   
+<div class="grid-container">
+ <section id="omos">
+   <div class="item1">   
     <h2>Hvem er Limitless</h2>
 
     <p id="indledning">Vi er en VR-café placeret i Aarhus og København der tilbyder massevis af spændende virtuel-reality-oplevelser, vi har noget for en hvér smag. <br> <br></p>
     
     <p>Virtual reality – ofte forkortet VR, er en ny teknologi der kan skabe en livagtig virtuel 3D verden ved hjælp af et par VR-briller og en computer. Vi holder os altid opdateret på det seneste nye teknologi og spil, så du kan få en oplevelse du sent vil glemme. <br>
     Med Virtuel-reality er det kun fantasien der sætter grænserne. Kom ned til vores Café, få en kop kaffe og hør om hvad vi kan tilbyde dig, dine venner og familie. Vi opfordre til en splinter ny måde at socialisere på.</p>
-       
+    </div>   
     </section>
 
+    <div class="item2">
     <picture><img id="vrgameplay" src="images/om_osss.jpg" alt="To mennesker spiller VR i Limitless"></picture>
+    </div>
+    </div>
 
     <section id="infographic">
         <h2>Sådan gør du!</h2>
@@ -154,16 +161,7 @@
             <p>Ved større arrangementer holder vi åbent efter aftale.</p>
         </div>
     </footer>
-
+<script src="js/script.js"></script>
 </body>
-<!--Javascript taget fra https://www.codingforums.com/javascript-programming/222935-automatically-changing-text-daily-code.html-->
-<script type="text/javascript">
-    var scheduleDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-    onload = function() {
-        var today = new Date();
-        var DOW = today.getDay();
-        document.getElementById(scheduleDays[DOW]).style.display = 'block';
-    }
-</script>
 
 </html>

@@ -77,11 +77,8 @@ a:hover {
 
 /*video - limitless*/
 
-#videolimit video {
-    display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+#video {
+    width: 100%;
 }
 
 /*Om os*/
@@ -104,7 +101,18 @@ a:hover {
     border-width: 7px;
     border-color: #001a3e;
     margin-left: 60%;
+}
 
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 40px 200px 40px; 
+}
+
+.grid-container>div {
+    text-align: center;
+    padding:20px 0;
 }
 
 

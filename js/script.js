@@ -6,3 +6,7 @@
         document.getElementById(scheduleDays[DOW]).style.display = 'block';
     }
 
+var videoLimit = document.getElementById('video');
+
+
+					

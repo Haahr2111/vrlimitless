@@ -9,6 +9,7 @@
     <title>Limitless</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -51,10 +52,13 @@
             <h2 class="aabent">Åbent i dag:<br>11-23</h2>
         </div>
     </header>
-    
+
 <div id="videolimit">
-<video src="video/limitless_follow_99mb.mov" type="video/mp4" controls></video></div>
-    
+<video id="video" preload="true" src="video/limitless_follow_99mb.mov" type="video/mp4" controls></video></div>
+<script>
+	
+	
+	</script> 
 <!-- om os-->
 
 <div class="grid-container">
@@ -123,16 +127,7 @@
             <p>Ved større arrangementer holder vi åbent efter aftale.</p>
         </div>
     </footer>
-
+<script src="js/script.js"></script>
 </body>
-<!--Javascript taget fra https://www.codingforums.com/javascript-programming/222935-automatically-changing-text-daily-code.html-->
-<script type="text/javascript">
-    var scheduleDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-    onload = function() {
-        var today = new Date();
-        var DOW = today.getDay();
-        document.getElementById(scheduleDays[DOW]).style.display = 'block';
-    }
-</script>
 
 </html>

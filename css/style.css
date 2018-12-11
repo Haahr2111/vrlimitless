@@ -78,6 +78,9 @@ a:hover {
 
 /*Om os*/
 
+#indledning{
+    font-weight: bold
+}
 #omos{
     margin-top: 5%;
     margin-right:auto;

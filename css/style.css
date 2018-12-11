@@ -8,7 +8,7 @@
 body {
     background-image: url(images/limitless-baggrund.png);
     background-size: contain;
-    
+
 
 
 }
@@ -80,16 +80,17 @@ a:hover {
 video {
     width: 100%;
 }
+
 #video {
     width: 100%;
-    
+
 }
 
 /*Om os*/
 
 #indledning {
     font-weight: bold;
-    width:100%;
+    width: 100%;
 }
 
 #omos {
@@ -119,7 +120,7 @@ video {
 h2 {
     display: block;
     margin-right: auto;
-    
+
 }
 
 #infographic h2 {
@@ -135,22 +136,23 @@ h2 {
     text-align: center;
     padding: 6px;
 }
-#intro{
-    
-}
+
+#intro {}
+
 .beskriv {
     padding: 6px;
 }
+
 .spil {
     width: 80%;
-background-color:#4d64ab;
+    background-color: #4d64ab;
     margin-top: 5%;
 }
 
 .players {
     font-family: 'orbitron', sans-serif;
     padding: 6px;
-   
+
 }
 
 
@@ -160,25 +162,25 @@ background-color:#4d64ab;
 
 /**pakker**/
 
-#pakkepriser {
+#pakkerpriser {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
 }
 
 #pakke {
     width: 316px;
     height: 300px;
     background-color: #4d64ab;
-    margin-left: 5%;
-    
+    margin: 30px;
 }
 
 #pakke h3 {
     text-align: center;
 }
 
-#pakkepriser #pakke {
-}
+
 
 
 /*footer*/
@@ -206,6 +208,16 @@ footer #smlogo {
 /*taplet*/
 @media (min-width:420px) {
 
+    /*hero*/
+
+
+    #logo {
+        width: 20%;
+        top: 15%;
+        left: 65%;
+    }
+
+
     /*åbningstider*/
     .Schedule {
         margin-top: 1px;
@@ -213,9 +225,10 @@ footer #smlogo {
         width: 300px;
         display: none;
 
+
 }
     
-HEAD
+
     .spil {
     width: 25%;
 background-color:#4d64ab;
@@ -223,6 +236,8 @@ background-color:#4d64ab;
 }
     
 /*spil/oplevelser*/
+
+    }
 
 
     /*spil/oplevelser*/
@@ -233,10 +248,12 @@ background-color:#4d64ab;
     width: 45%;
     
 
-}
-   
-    
- 
+    .spil {
+        width: 45%;
+
+
+
+    }
 
 
 /*PC*/
@@ -247,5 +264,33 @@ background-color:#4d64ab;
     .spil {
     width: 25%;
 }
+    
+    #pakkerpriser {
+    display: flex;
+    
+    
+}
+    
+    
+
+
+
+
+
+    /*PC*/
+    @media (min-width:1025px) {
+
+         /*hero*/
+
+    #logo {
+        width: 20%;
+        top: 40%;
+        left: 65%;
+    }
+        /*spil/oplevelser*/
+        .spil {
+            width: 25%;
+        }
+
     }
 

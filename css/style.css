@@ -38,18 +38,22 @@ a {
 
 /*menu*/
 #menu {
-    position:fixed;
-    background-color: #1e3668;
-    padding: 1%;
+  position: absolute;
+    padding: 2%;
     width: 100%;
-    z-index: 1;
+    
 }
 #menu a{
-    margin:5%;
+
+    margin:4%;
     text-decoration-line: none;
     opacity: 1;
-   
+  
 
+}
+
+a:hover {
+    color: #ffa852; 
 }
  /*hero-image*/
         #hero {
@@ -75,7 +79,7 @@ a {
 }
     
 
-/**infograpic**/
+/*infograpic*/
 #infographic img {
     display: block;
     width: 40%;
@@ -85,7 +89,7 @@ a {
     position: relative;
 }
 
-/**footer**/
+/*footer*/
 footer #smlogo {
     color: white
 }

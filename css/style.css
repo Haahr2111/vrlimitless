@@ -110,7 +110,6 @@ video {
 
 
 
-
 /*infograpic*/
 #infographic img {
     display: block;
@@ -244,24 +243,6 @@ footer #smlogo {
     }
 
 
-/*PC*/
-@media (min-width:1025px) {
-    
-    /*spil/oplevelser*/
-    .spil {
-    width: 25%;
-}
-    
-    #pakkerpriser {
-    display: flex;
-    
-    
-}
-    
-    
-
-
-
 
 
     /*PC*/
@@ -278,5 +259,13 @@ footer #smlogo {
         .spil {
             width: 25%;
         }
+        
+    #pakkerpriser {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
 
     }

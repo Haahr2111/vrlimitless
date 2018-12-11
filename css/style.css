@@ -199,29 +199,25 @@ footer #smlogo {
 
     }
     
-    .spil {
-    width: 25%;
-background-color:#4d64ab;
-    margin: 5%;
-}
-    
+
     /*spil/oplevelser*/
 
-.overskrift h3 {
-    padding: 6px;
-}
+
 .spil {
-    width: 25%;
+    width: 45%;
+    
 
 }
-    .trailer {
-        width: 100%;
-    }
+   
     
-    .beskriv {
-    }
-}
+ 
 
 
 /*PC*/
-@media (min-width:1025px) {}
+@media (min-width:1025px) {
+    
+    /*spil/oplevelser*/
+    .spil {
+    width: 25%;
+}
+    }

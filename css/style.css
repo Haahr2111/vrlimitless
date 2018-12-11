@@ -77,10 +77,6 @@ a:hover {
 
 /*video - limitless*/
 
-video {
-    width: 100%;
-}
-
 #video {
     width: 100%;
 
@@ -237,20 +233,11 @@ background-color:#4d64ab;
     
 /*spil/oplevelser*/
 
-    }
-
-
-    /*spil/oplevelser*/
-
-
 
 .spil {
     width: 45%;
 
     }
-
-
-
 
 
     /*PC*/

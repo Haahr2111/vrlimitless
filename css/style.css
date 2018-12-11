@@ -58,8 +58,6 @@ a {
     margin: 4%;
     text-decoration-line: none;
     opacity: 1;
-
-
 }
 
 a:hover {
@@ -99,7 +97,7 @@ video {
 #omos {
     margin-top: 5%;
     display: block;
-width: 100%;
+    width: 100%;
 }
 
 #vrgameplay {
@@ -108,9 +106,6 @@ width: 100%;
     border-width: 7px;
     border-color: #001a3e
 }
-
-
-
 
 /*infograpic*/
 #infographic img {
@@ -198,8 +193,7 @@ footer #smlogo {
         width: 300px;
         display: none;
 
-
-    }
+}
     
     .spil {
     width: 25%;
@@ -207,7 +201,7 @@ background-color:#4d64ab;
     margin: 5%;
 }
     
-    /*spil/oplevelser*/
+/*spil/oplevelser*/
 
 .overskrift h3 {
     padding: 6px;
@@ -226,4 +220,6 @@ background-color:#4d64ab;
 
 
 /*PC*/
-@media (min-width:1025px) {}
+@media (min-width:1025px) {
+    
+}

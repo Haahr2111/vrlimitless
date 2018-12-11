@@ -156,7 +156,6 @@ h2 {
 
 }
 
-
 .trailer {
     width: 100%;
 }
@@ -297,8 +296,7 @@ background-color:#4d64ab;
     display: flex;
     width: 70%;
     margin-left: auto;
-    margin-right: auto;
-        
+    margin-right: auto;  
 }
 
     }

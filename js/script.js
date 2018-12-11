@@ -5,4 +5,3 @@
         var DOW = today.getDay();
         document.getElementById(scheduleDays[DOW]).style.display = 'block';
     }
-

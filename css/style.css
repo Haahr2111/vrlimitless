@@ -7,15 +7,15 @@
 
 body {
     background-image: url(images/limitless-baggrund.png);
-    
-    
+
+
 }
 
 /*tekst*/
 
 @font-face {
-    
-font-family: 'orbitron';
+
+    font-family: 'orbitron';
     src: url('orbitron-bold.otf') format:'otf';
 }
 
@@ -24,44 +24,49 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     font-family: 'orbitron', sans-serif;
     color: #ffa852;
 }
+
+
 
 p,
 a {
     font-family: 'arial', sans-serif;
     color: white;
 }
+
 /*header*/
 
 /*menu*/
 #menu {
-  position: absolute;
+    position: absolute;
     padding: 2%;
     width: 100%;
-    
-}
-#menu a{
 
-    margin:4%;
+}
+
+#menu a {
+
+    margin: 4%;
     text-decoration-line: none;
     opacity: 1;
-  
+
 
 }
 
 a:hover {
-    color: #ffa852; 
+    color: #ffa852;
 }
- /*hero-image*/
-        #hero {
-            position: relative;
-            width: 100%;
-            z-index: -1;
-            opacity: 0.9;
-        }
+
+/*hero-image*/
+#hero {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
 
 #logo {
     position: absolute;
@@ -78,13 +83,13 @@ a:hover {
 
 /*Om os*/
 
-#indledning{
+#indledning {
     font-weight: bold
 }
 
 #omos {
     margin-top: 5%;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: 5%;
     display: block;
     width: 45%;
@@ -109,7 +114,7 @@ a:hover {
     text-align: center;
     padding:20px 0;
 }
-    
+
 
 /*infograpic*/
 #infographic img {
@@ -120,7 +125,8 @@ a:hover {
     position: relative;
 }
 
-#infographic p, h2 {
+#infographic p,
+h2 {
     display: block;
     width: 60%;
     margin-right: auto;
@@ -132,12 +138,36 @@ a:hover {
     margin-top: 20%;
 }
 
-/**footer**/
+/*spil/oplevelser*/
+
+.overskrift h3 {
+    font-family: 'orbitron', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+.beskriv {
+    padding: 6px;
+}
+.spil {
+    width: 25%;
+background-color:#4d64ab;
+    margin: 5%;
+}
+
+.players {
+    font-family: 'orbitron', sans-serif;
+    padding: 6px;
+   
+}
+
+
 
 /*footer*/
 footer #smlogo {
     color: white
 }
+
 /*mobil*/
 /*åbningstider*/
 .Schedule {
@@ -156,20 +186,34 @@ footer #smlogo {
 
 /*taplet*/
 @media (min-width:420px) {
-    
+
     /*åbningstider*/
     .Schedule {
         margin-top: 1px;
         height: 50px;
         width: 300px;
         display: none;
-        
+
+
+    }
     
+    /*spil/oplevelser*/
+
+.overskrift h3 {
+    padding: 6px;
+}
+.spil {
+    width: 25%;
+
+}
+    .trailer {
+        width: 100%;
+    }
+    
+    .beskriv {
     }
 }
-    
-    
-   /*PC*/ 
-    @media (min-width:1025px) {
-       
-}
+
+
+/*PC*/
+@media (min-width:1025px) {}

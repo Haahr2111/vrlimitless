@@ -111,11 +111,14 @@ a:hover {
 }
 
 #indhold {
-    width: 316px;
+    width: 416px;
     height: 300px;
     margin: 30px;
 }
 
+#bill-indhold{
+     
+}
 /*infograpic*/
 #infographic img {
     display: block;
@@ -287,11 +290,12 @@ background-color:#4d64ab;
     margin-right: auto; 
 }
 
-    #flex{
+    #flex {
     display: flex;
     width: 90%;
     margin-left: auto;
     margin-right: auto;   
-        }
+}
+        
     }
 

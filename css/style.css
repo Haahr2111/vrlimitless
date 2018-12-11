@@ -71,11 +71,21 @@ a:hover {
 }
 
 /*Om os*/
-#vrgameplay{
+
+#omos{
+    margin-top: 5%;
+    margin-right:auto;
+    margin-left: 5%;
+    display: block;
+    width: 45%;
+}
+#vrgameplay {
     width: 35%;
     border-style: solid;
     border-width: 7px;
     border-color: #001a3e;
+    margin-left: 60%;
+
 }
     
 
@@ -87,6 +97,20 @@ a:hover {
     z-index: -1;
     position: relative;
 }
+
+#infographic p, h2 {
+    display: block;
+    width: 60%;
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+#infographic h2 {
+    font-size: 29px;
+    margin-top: 20%;
+}
+
+/**footer**/
 
 /*footer*/
 footer #smlogo {

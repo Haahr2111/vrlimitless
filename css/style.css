@@ -153,10 +153,32 @@ background-color:#4d64ab;
    
 }
 
+
 .trailer {
     width: 100%;
 }
 
+/**pakker**/
+
+#pakkepriser {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pakke {
+    width: 316px;
+    height: 300px;
+    background-color: #4d64ab;
+    margin-left: 5%;
+    
+}
+
+#pakke h3 {
+    text-align: center;
+}
+
+#pakkepriser #pakke {
+}
 
 
 /*footer*/

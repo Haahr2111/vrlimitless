@@ -13,9 +13,7 @@ body {
 
 }
 
-section {
-    width: 100%;
-}
+
 
 /*tekst*/
 
@@ -195,6 +193,7 @@ footer #smlogo {
 
 }
     
+HEAD
     .spil {
     width: 25%;
 background-color:#4d64ab;
@@ -203,23 +202,28 @@ background-color:#4d64ab;
     
 /*spil/oplevelser*/
 
-.overskrift h3 {
-    padding: 6px;
-}
+
+    /*spil/oplevelser*/
+
+
+
 .spil {
-    width: 25%;
+    width: 45%;
+    
 
 }
-    .trailer {
-        width: 100%;
-    }
+   
     
-    .beskriv {
-    }
-}
+ 
 
 
 /*PC*/
 @media (min-width:1025px) {
     
+
+    /*spil/oplevelser*/
+    .spil {
+    width: 25%;
 }
+    }
+

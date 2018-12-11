@@ -81,20 +81,33 @@ a:hover {
 #indledning{
     font-weight: bold
 }
-#omos{
+
+#omos {
     margin-top: 5%;
     margin-right:auto;
     margin-left: 5%;
     display: block;
     width: 45%;
 }
+
 #vrgameplay {
     width: 35%;
     border-style: solid;
     border-width: 7px;
     border-color: #001a3e;
     margin-left: 60%;
+}
 
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 40px 200px 40px; 
+}
+
+.grid-container>div {
+    text-align: center;
+    padding:20px 0;
 }
     
 

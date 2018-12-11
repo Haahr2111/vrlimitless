@@ -7,8 +7,14 @@
 
 body {
     background-image: url(images/limitless-baggrund.png);
+    background-size: contain;
+    
 
 
+}
+
+section {
+    width: 100%;
 }
 
 /*tekst*/
@@ -70,54 +76,40 @@ a:hover {
 
 #logo {
     position: absolute;
-    top: 30%;
-    left: 60%;
     width: 20%;
 }
 
 /*video - limitless*/
 
+video {
+    width: 100%;
+}
 #video {
     width: 100%;
+    
 }
 
 /*Om os*/
 
 #indledning {
-    font-weight: bold
+    font-weight: bold;
+    width:100%;
 }
 
 #omos {
     margin-top: 5%;
-    margin-right: auto;
-    margin-left: 5%;
     display: block;
-    width: 45%;
+width: 100%;
 }
 
 #vrgameplay {
-    width: 35%;
+    width: 100%;
     border-style: solid;
     border-width: 7px;
-    border-color: #001a3e;
-    margin-left: 60%;
+    border-color: #001a3e
 }
 
-.grid-container {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 40px 200px 40px; 
-    padding-top: 90px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
 
-.grid-container>div {
-    text-align: center;
-    padding: 70px 0;
-}
 
 
 /*infograpic*/
@@ -127,14 +119,14 @@ a:hover {
     margin-right: auto;
     z-index: -1;
     position: relative;
+    width: 100%;
 }
 
 #infographic p,
 h2 {
     display: block;
-    width: 60%;
     margin-right: auto;
-    margin-left: 5%;
+    
 }
 
 #infographic h2 {
@@ -154,9 +146,9 @@ h2 {
     padding: 6px;
 }
 .spil {
-    width: 25%;
+    width: 80%;
 background-color:#4d64ab;
-    margin: 5%;
+    margin-top: 5%;
 }
 
 .players {
@@ -165,7 +157,14 @@ background-color:#4d64ab;
    
 }
 
+
 /**pakker**/
+
+.trailer {
+    width: 100%;
+}
+
+
 
 #pakke {
     width: 316px;
@@ -197,6 +196,7 @@ footer #smlogo {
 
 .Schedule h2 {
     color: white;
+    display: none;
 }
 
 
@@ -212,6 +212,12 @@ footer #smlogo {
 
 
     }
+    
+    .spil {
+    width: 25%;
+background-color:#4d64ab;
+    margin: 5%;
+}
     
     /*spil/oplevelser*/
 

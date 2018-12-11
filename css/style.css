@@ -106,6 +106,7 @@ video {
     border-color: #001a3e
 }
 
+
 /*infograpic*/
 #infographic img {
     display: block;
@@ -256,6 +257,7 @@ background-color:#4d64ab;
     }
 
 
+
 /*PC*/
 @media (min-width:1025px) {
     
@@ -276,7 +278,6 @@ background-color:#4d64ab;
 
 
 
-
     /*PC*/
     @media (min-width:1025px) {
 
@@ -291,6 +292,14 @@ background-color:#4d64ab;
         .spil {
             width: 25%;
         }
+        
+    #pakkerpriser {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
 
     }
 

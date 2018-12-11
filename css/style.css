@@ -67,11 +67,21 @@ a {
 }
 
 /*Om os*/
-#vrgameplay{
+
+#omos{
+    margin-top: 5%;
+    margin-right:auto;
+    margin-left: 5%;
+    display: block;
+    width: 45%;
+}
+#vrgameplay {
     width: 35%;
     border-style: solid;
     border-width: 7px;
     border-color: #001a3e;
+    margin-left: 60%;
+
 }
     
 

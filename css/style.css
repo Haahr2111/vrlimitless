@@ -381,6 +381,7 @@ footer h3{
             display: flex;
             flex-wrap: wrap;
             align-content: space-between;
+            margin: 60px;
             
         } 
         #omos img {

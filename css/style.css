@@ -206,8 +206,22 @@ h2 {
     font-size: 20px;
 }
 
+#pakke h3 {
+    margin: 5%;
+}
+#pakke img {
+    width: 100%;
+}
+#intropakke {
+    color: black;
+}
+
 #pakke a {
     text-decoration: none;
+}
+
+#pakke a:hover {
+    /*kommer senere*/
 }
 
 /*footer*/

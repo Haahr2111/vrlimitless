@@ -20,6 +20,7 @@ var videoLimit = document.getElementById('video');
    *     the user visible viewport of a web browser.
    *     only accounts for vertical position, not horizontal.
    */
+     
 
   $.fn.visible = function(partial) {
     
@@ -59,4 +60,10 @@ win.scroll(function(event) {
   });
   
 });
+
+
+
+
+
+
 					

@@ -69,22 +69,26 @@ a {
 
 /*menu*/
 #menu {
+
     position: absolute;
     padding: 2%;
     width: 100%;
-
+    
+    
+    
 }
 
 #menu a {
 
-    margin: 4%;
+    margin: 5%;
     text-decoration-line: none;
-    opacity: 1;
+
 }
 
 a:hover {
     color: #ffa852;
 }
+
 
 /*hero-image*/
 #hero {
@@ -331,7 +335,8 @@ footer h3{
         top: 15%;
         left: 65%;
     }
-
+    
+ 
     /*infographic*/
     #infographic img {
         display: block;
@@ -349,10 +354,7 @@ footer h3{
         display: none;
     }
 
-    #spil {
-        width: 25%;
-
-    }
+    
 
     /*spil/oplevelser*/
 
@@ -375,7 +377,8 @@ footer h3{
             top: 40%;
             left: 65%;
         }
-
+/*menu*/
+    
         /*infographic*/
         #infographic img {
             display: block;
@@ -385,6 +388,13 @@ footer h3{
             width: 37%;
 
         }
+        
+        #menu a {
+
+    margin: 4%;
+    text-decoration-line: none;
+    opacity: 1;
+}
 
         /*spil/oplevelser*/
         #spil {

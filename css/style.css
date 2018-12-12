@@ -263,8 +263,11 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 2%
 }
 
+#kontaktinfo{
+}
 
 /*mobil*/
 
@@ -378,5 +381,6 @@ footer {
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-evenly;
+            
         }
     }

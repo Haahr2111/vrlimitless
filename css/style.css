@@ -11,6 +11,23 @@ body {
 
 }
 
+/**box der slider ind animation**/
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 3.0s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
 /*tekst*/
 
 @font-face {

@@ -108,7 +108,7 @@ a:hover {
     justify-content: space-evenly;
 }
 
-#flex p{
+#flex p {
     margin: 5%;
 }
 
@@ -204,7 +204,6 @@ h2 {
     color: white;
     font-family: 'orbitron', sans-serif;
     font-size: 20px;
-    margin-top: 6%;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -221,10 +220,18 @@ h2 {
     text-align: center;
 }
 
+.ned {
+    color: black;
+    background-color: #8fabe7;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
 #intropakke p {
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+    color: black;
 }
 
 .flexthis {

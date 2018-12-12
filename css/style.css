@@ -17,12 +17,12 @@ section {
 }
 
 /**box der slider ind animation**/
-.come-in {
+.come-in, .spil {
     transform: translateY(150px);
     animation: come-in 1.0s ease forwards;
 }
 
-.come-in:nth-child(odd) {
+.come-in:nth-child(odd), .spil:nth-child(odd) {
     animation-duration: 0.9s;
 }
 

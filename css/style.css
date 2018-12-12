@@ -17,7 +17,7 @@ body {
   animation: come-in 3.0s ease forwards;
 }
 .come-in:nth-child(odd) {
-  animation-duration: 0.6s;
+  animation-duration: 2.4s;
 }
 .already-visible {
   transform: translateY(0);

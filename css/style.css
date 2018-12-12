@@ -9,11 +9,7 @@ body {
     background-image: url(images/limitless-baggrund.png);
     background-size: contain;
 
-
-
 }
-
-
 
 /*tekst*/
 
@@ -196,6 +192,13 @@ h2 {
 /*footer*/
 footer #smlogo {
     color: white
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 /*mobil*/

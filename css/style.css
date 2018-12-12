@@ -10,6 +10,7 @@ body {
     background-size: contain;
 
 }
+
 /*mellemrum imellem sections*/
 section {
     margin-top: 10%;
@@ -17,19 +18,23 @@ section {
 
 /**box der slider ind animation**/
 .come-in {
-  transform: translateY(150px);
-  animation: come-in 3.0s ease forwards;
+    transform: translateY(150px);
+    animation: come-in 1.1s ease forwards;
 }
+
 .come-in:nth-child(odd) {
-  animation-duration: 2.4s;
+    animation-duration: 0.9s;
 }
+
 .already-visible {
-  transform: translateY(0);
-  animation: none;
+    transform: translateY(0);
+    animation: none;
 }
 
 @keyframes come-in {
-  to { transform: translateY(0); }
+    to {
+        transform: translateY(0);
+    }
 }
 
 /*tekst*/
@@ -141,9 +146,8 @@ a:hover {
     width: 100%;
 }
 
-#infographic p
-{
- margin: 5%;
+#infographic p {
+    margin: 5%;
 
 }
 
@@ -167,6 +171,7 @@ a:hover {
     justify-content: space-evenly;
 
 }
+
 #spilbeskriv {
     margin: 5%;
 }
@@ -196,7 +201,7 @@ a:hover {
 
 /**pakker**/
 
-.pakpris {
+#pakpris {
     margin-left: 5%;
     width: 70%;
 }
@@ -279,15 +284,22 @@ footer #smlogo {
     color: white
 }
 
-footer {
+footer {    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 2%
+    background-color: rgb(77, 100, 171, 0.6);
+    margin-top: 60px;
+    text-align: center;
 }
 
-#kontaktinfo{
+footer div {
+    padding: 10px;    
+}
+
+footer h3{
+    margin-bottom: 10px
 }
 
 /*mobil*/
@@ -323,12 +335,12 @@ footer {
 
     /*infographic*/
     #infographic img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 400px;
-}
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 400px;
+    }
 
     /*åbningstider*/
     .Schedule {
@@ -336,13 +348,11 @@ footer {
         height: 50px;
         width: 300px;
         display: none;
-
     }
-
 
     .spil {
         width: 25%;
-        
+
     }
 
     /*spil/oplevelser*/
@@ -366,15 +376,16 @@ footer {
             top: 40%;
             left: 65%;
         }
-         /*infographic*/
-    #infographic img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: 37%;
-        
-}
+
+        /*infographic*/
+        #infographic img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            width: 37%;
+
+        }
 
         /*spil/oplevelser*/
         .spil {
@@ -396,12 +407,14 @@ footer {
             margin-left: auto;
             margin-right: auto;
         }
-        
+
         footer {
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-evenly;
-            
         }
+        
+        
+        
     }

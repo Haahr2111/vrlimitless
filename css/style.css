@@ -294,12 +294,12 @@ footer {
     text-align: center;
 }
 
-
-#kontaktinfo {}
-
 footer div {
-    padding: 15px;
-    
+    padding: 10px;    
+}
+
+footer h3{
+    margin-bottom: 10px
 }
 
 /*mobil*/
@@ -413,6 +413,8 @@ footer div {
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-evenly;
-
         }
+        
+        
+        
     }

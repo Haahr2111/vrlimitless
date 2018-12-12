@@ -148,13 +148,20 @@ h2 {
     padding: 6px;
 }
 
-#intro {}
+.spilboks {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
 
 .beskriv {
     padding: 6px;
 }
 
 .spil {
+
     width: 80%;
     background-color: #4d64ab;
     margin-top: 5%;
@@ -190,6 +197,19 @@ h2 {
     text-align: center;
 }
 
+#button {
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    background-color: #ffa852;
+    color: white;
+    font-family: 'orbitron', sans-serif;
+    font-size: 20px;
+}
+
+#pakke a {
+    text-decoration: none;
+}
 
 /*footer*/
 footer #smlogo {
@@ -240,60 +260,33 @@ footer {
         width: 300px;
         display: none;
 
-}
-    
-
-.spil {
-    width: 25%;
-background-color:#4d64ab;
-    margin: 5%;
-}
-    
-/*spil/oplevelser*/
+    }
 
 
-.spil {
-    width: 45%;
+    .spil {
+        width: 25%;
+        background-color: #4d64ab;
+        margin: 5%;
+    }
+
+    /*spil/oplevelser*/
+
+
+    .spil {
+        width: 45%;
 
     }
 
 
-/*PC*/
-@media (min-width:1025px) {
-    
-
-    /*spil/oplevelser*/
-    .spil {
-    width: 25%;
-}
-    
-    #pakkerpriser {
-    display: flex;
-    
-    
-}
-    
     /*PC*/
     @media (min-width:1025px) {
 
-         /*hero*/
 
-    #logo {
-        width: 20%;
-        top: 40%;
-        left: 65%;
-    }
         /*spil/oplevelser*/
         .spil {
             width: 25%;
         }
-        
-    #pakkerpriser {
-    display: flex;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto; 
-}
+
 
     #flex {
     display: flex;
@@ -306,3 +299,41 @@ background-color:#4d64ab;
     
     }
 
+        #pakkerpriser {
+            display: flex;
+
+
+        }
+
+
+        /*PC*/
+        @media (min-width:1025px) {
+
+            /*hero*/
+
+            #logo {
+                width: 20%;
+                top: 40%;
+                left: 65%;
+            }
+
+            /*spil/oplevelser*/
+            .spil {
+                width: 25%;
+            }
+
+            #pakkerpriser {
+                display: flex;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #flex {
+                display: flex;
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }

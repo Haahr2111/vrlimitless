@@ -178,6 +178,11 @@ a:hover {
 
 /**pakker**/
 
+.pakpris {
+    margin-left: 5%;
+    width: 70%;
+}
+
 #pakkerpriser {
     display: flex;
     flex-direction: row;
@@ -264,6 +269,8 @@ footer {
 }
 
 /*mobil*/
+
+
 /*åbningstider*/
 .Schedule {
     position: absolute;
@@ -292,6 +299,14 @@ footer {
         left: 65%;
     }
 
+    /*infographic*/
+    #infographic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 400px;
+}
 
     /*åbningstider*/
     .Schedule {
@@ -337,12 +352,10 @@ footer {
 
         #bill-indhold {}
 
-
     }
 
     #pakkerpriser {
         display: flex;
-
 
     }
 
@@ -357,6 +370,15 @@ footer {
             top: 40%;
             left: 65%;
         }
+         /*infographic*/
+    #infographic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 37%;
+        
+}
 
         /*spil/oplevelser*/
         .spil {

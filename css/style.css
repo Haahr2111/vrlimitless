@@ -82,11 +82,7 @@ a:hover {
 
 /*Om os*/
 
-#indledning {
-    font-weight: bold;
-    width: 100%;
-    margin-top: 4%;
-}
+
 
 #omos {
     margin-top: 5%;
@@ -163,7 +159,7 @@ a:hover {
 
     width: 80%;
     background-color: #4d64ab;
-    margin-top: 5%;
+    margin: 5%;
 }
 
 .players {
@@ -177,6 +173,11 @@ a:hover {
 }
 
 /**pakker**/
+
+.pakpris {
+    margin-left: 5%;
+    width: 70%;
+}
 
 #pakkerpriser {
     display: flex;
@@ -265,6 +266,8 @@ footer {
 
 
 /*mobil*/
+
+
 /*åbningstider*/
 .Schedule {
     position: absolute;
@@ -293,6 +296,14 @@ footer {
         left: 65%;
     }
 
+    /*infographic*/
+    #infographic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 400px;
+}
 
     /*åbningstider*/
     .Schedule {
@@ -338,12 +349,10 @@ footer {
 
         #bill-indhold {}
 
-
     }
 
     #pakkerpriser {
         display: flex;
-
 
     }
 
@@ -358,6 +367,15 @@ footer {
             top: 40%;
             left: 65%;
         }
+         /*infographic*/
+    #infographic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 37%;
+        
+}
 
         /*spil/oplevelser*/
         .spil {

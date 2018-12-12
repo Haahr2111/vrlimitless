@@ -10,6 +10,27 @@ body {
     background-size: contain;
 
 }
+/*mellemrum imellem sections*/
+section {
+    margin-top: 10%;
+}
+
+/**box der slider ind animation**/
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 1.5s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 1.0s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
 
 /*tekst*/
 
@@ -135,7 +156,6 @@ a:hover {
 
 .overskrift h3 {
     font-family: 'orbitron', sans-serif;
-    color: white;
     text-align: center;
     padding: 6px;
 }
@@ -152,7 +172,7 @@ a:hover {
 }
 
 .beskriv {
-    padding: 6px;
+    margin: 5%;
 }
 
 .spil {
@@ -164,7 +184,9 @@ a:hover {
 
 .players {
     font-family: 'orbitron', sans-serif;
+    color: #ffa852;
     padding: 6px;
+    margin: 5%;
 
 }
 
@@ -324,8 +346,7 @@ footer div {
 
     .spil {
         width: 25%;
-        background-color: #4d64ab;
-        margin: 5%;
+        
     }
 
     /*spil/oplevelser*/

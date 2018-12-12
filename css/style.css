@@ -14,10 +14,10 @@ body {
 /**box der slider ind animation**/
 .come-in {
   transform: translateY(150px);
-  animation: come-in 3.0s ease forwards;
+  animation: come-in 1.5s ease forwards;
 }
 .come-in:nth-child(odd) {
-  animation-duration: 2.4s;
+  animation-duration: 1.0s;
 }
 .already-visible {
   transform: translateY(0);

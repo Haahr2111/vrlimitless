@@ -112,8 +112,6 @@ a:hover {
 
 /*Om os*/
 
-
-
 #omos {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -131,8 +129,8 @@ a:hover {
 
 #flex {
     display: flex;
-    flex-direction: row;
     flex-flow: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -366,7 +364,6 @@ footer h3{
 
 
 
-
     /*PC*/
     @media (min-width:1025px) {
 
@@ -377,8 +374,27 @@ footer h3{
             top: 40%;
             left: 65%;
         }
+
 /*menu*/
     
+
+        /*om os bro*/
+        #indhold{
+            width: 35%;   
+        }
+        
+        #omos {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            margin: 60px;
+            
+        }
+        
+        #omos img {
+            width: 80%;        }
+
+
         /*infographic*/
         #infographic img {
             display: block;
@@ -408,13 +424,6 @@ footer h3{
             margin-left: auto;
             margin-right: auto;
 
-        }
-
-        #flex {
-            display: flex;
-            width: 90%;
-            margin-left: auto;
-            margin-right: auto;
         }
 
         footer {

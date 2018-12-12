@@ -10,6 +10,10 @@ body {
     background-size: contain;
 
 }
+/*mellemrum imellem sections*/
+section {
+    margin-top: 10%;
+}
 
 /**box der slider ind animation**/
 .come-in {

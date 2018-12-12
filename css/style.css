@@ -9,11 +9,7 @@ body {
     background-image: url(images/limitless-baggrund.png);
     background-size: contain;
 
-
-
 }
-
-
 
 /*tekst*/
 
@@ -87,10 +83,12 @@ a:hover {
 #indledning {
     font-weight: bold;
     width: 100%;
+    margin-top: 4%;
 }
 
 #omos {
     margin-top: 5%;
+    margin-bottom: 5%;
     display: block;
     width: 100%;
 }
@@ -116,9 +114,9 @@ a:hover {
     margin: 30px;
 }
 
-#bill-indhold{
-     
-}
+#bill-indhold {}
+
+
 /*infograpic*/
 #infographic img {
     display: block;

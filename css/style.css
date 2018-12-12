@@ -150,13 +150,20 @@ h2 {
     padding: 6px;
 }
 
-#intro {}
+.spilboks {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
 
 .beskriv {
     padding: 6px;
 }
 
 .spil {
+
     width: 80%;
     background-color: #4d64ab;
     margin-top: 5%;

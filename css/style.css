@@ -135,7 +135,6 @@ a:hover {
 
 .overskrift h3 {
     font-family: 'orbitron', sans-serif;
-    color: white;
     text-align: center;
     padding: 6px;
 }
@@ -152,7 +151,7 @@ a:hover {
 }
 
 .beskriv {
-    padding: 6px;
+    margin: 5%;
 }
 
 .spil {
@@ -164,7 +163,9 @@ a:hover {
 
 .players {
     font-family: 'orbitron', sans-serif;
+    color: #ffa852;
     padding: 6px;
+    margin: 5%;
 
 }
 
@@ -317,8 +318,7 @@ footer {
 
     .spil {
         width: 25%;
-        background-color: #4d64ab;
-        margin: 5%;
+        
     }
 
     /*spil/oplevelser*/

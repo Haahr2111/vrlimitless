@@ -17,12 +17,12 @@ section {
 }
 
 /**box der slider ind animation**/
-.come-in {
-    transform: translateY(150px);
+.come-in{
+    transform: translateY(50px);
     animation: come-in 1.1s ease forwards;
 }
 
-.come-in:nth-child(odd) {
+.come-in:nth-child(odd){
     animation-duration: 0.9s;
 }
 
@@ -164,7 +164,7 @@ a:hover {
     padding: 6px;
 }
 
-.spilboks {
+#spilboks {
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
@@ -180,8 +180,7 @@ a:hover {
     margin: 5%;
 }
 
-.spil {
-
+#spil {
     width: 80%;
     background-color: #4d64ab;
     margin-top: 5%;
@@ -350,7 +349,7 @@ footer h3{
         display: none;
     }
 
-    .spil {
+    #spil {
         width: 25%;
 
     }
@@ -358,7 +357,7 @@ footer h3{
     /*spil/oplevelser*/
 
 
-    .spil {
+    #spil {
         width: 45%;
 
     }
@@ -388,7 +387,7 @@ footer h3{
         }
 
         /*spil/oplevelser*/
-        .spil {
+        #spil {
             width: 35%;
         }
 

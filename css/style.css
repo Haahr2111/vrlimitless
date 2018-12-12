@@ -279,18 +279,18 @@ footer #smlogo {
     color: white
 }
 
-footer {
-    text-align: center; 
+footer {    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: rgb(77, 100, 171, 0.6);
-    
+    margin-top: 60px;
+    text-align: center;
 }
 
 footer div {
-    padding: 6px;
+    padding: 15px;
     
 }
 

@@ -601,6 +601,10 @@ footer h3 {
             /*spil/oplevelser*/
             #spil {
                 width: 35%;
+                transition: transform .3s;
+            }
+            #spil:hover {
+                transform: scale(1.2);
             }
 
             #textconspil {

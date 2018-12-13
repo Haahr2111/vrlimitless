@@ -86,32 +86,28 @@ function hideVideo(e) {
     $('doc', this).get(0).pause(); 
 }*/
 'use strict';
-/**
- * file: isVideoVisibleOrNot.html
- * purpose: Er min video synlig nu?
- **/
 
-// scroll-eventlistener
-window.addEventListener("scroll", function () {
-    console.log('scroll ...'); // test
+// scroll-eventlistener 
+window.addEventListener("scroll", function() { 
+console.log('nu scrolles der ...'); // test 
 
-    // hvis erJegHer er synlig, så ...
-    if (elFllVsbl(video)) {
-        console.log(elFllVsbl(video)); // test
+// hvis erJegHer er synlig, så ... 
+if (elFllVsbl(video)) { 
+console.log(elFllVsbl(video)); // sender true nå video er visible 
 
-        if (!(doc.curentTime > 0)) {
-            doc.load(); // load the video
-            doc.play(); // play audio
-        }
-    } else {
-        console.log(elFllVsbl(video)); // test
-        doc.pause();
-        doc.currentTime = 0; // rewind the sound
-    }
-})
+if (!(video.curentTime > 0)) { 
+video.load(); // load the videovideo.play(); // play audio 
+video.play(); 
+} 
+} else { 
+console.log(elFllVsbl(video)); // test 
+video.pause(); 
+video.currentTime = 0; // rewind the sound 
+} 
+}) 
 
-// funktionen tester om videoen er synlig
-// og returnerer true eller false
-function elFllVsbl(el) {
-    return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
-}
+// funktionen tester om videoen er synlig 
+// og returnerer true eller false 
+function elFllVsbl(el) { 
+return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight); 
+} 

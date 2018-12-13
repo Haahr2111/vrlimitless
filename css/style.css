@@ -366,13 +366,15 @@ footer h3{
 
     }
 
-    @media (min-width:850px) {
+    @media (min-width:800px) {
         #hero {
         display: block;
+        width: 100%;
     }
     
     #hero2 {
         display: none;
+        width: 100%;
     }
     }
 
@@ -382,10 +384,14 @@ footer h3{
         /*hero*/
   #hero {
         display: block;
+        width: 100%;
+      margin-right: 0;
     }
     
     #hero2 {
         display: none;
+        width: 100%;
+        margin-right: 0;
     }
         #logo {
             width: 20%;
@@ -399,18 +405,20 @@ footer h3{
         /*om os bro*/
         #indhold{
             width: 35%;   
+            margin-left: 5%;
         }
         
         #omos {
             display: flex;
             flex-wrap: wrap;
             align-content: space-between;
-            margin: 60px;
-            
         }
         
         #omos img {
-            width: 80%;        }
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
 
 
         /*infographic*/

@@ -381,6 +381,10 @@ footer h3{
     /*PC*/
     @media (min-width:1025px) {
 
+        
+        /****alle tekster indrammet til desktop så det ser pænt ud****/
+        #infographic 
+        
         /*hero*/
   #hero {
         display: block;

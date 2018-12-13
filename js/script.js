@@ -91,6 +91,7 @@ function hideVideo(e) {
 window.addEventListener("scroll", function() { 
 console.log('nu scrolles der ...'); // test 
 
+$("video").prop('muted', true); //muted
 // hvis erJegHer er synlig, så ... 
 if (elFllVsbl(video)) { 
 console.log(elFllVsbl(video)); // sender true nå video er visible 

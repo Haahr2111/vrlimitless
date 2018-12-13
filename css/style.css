@@ -409,6 +409,7 @@ footer h3 {
     /*PC*/
     @media (min-width:1025px) {
 
+
 /*video*/
         
         #video{
@@ -448,6 +449,7 @@ footer h3 {
             margin-left: 4%;
             margin-bottom: 5%;
         }*/
+
         /*hero*/
         #hero {
             display: block;
@@ -484,11 +486,32 @@ footer h3 {
         #omos img {
             width: 80%;
             margin-left: 10%;
-            margin-top: 5%;
+            margin-top: 17%;
         }
 
 
         /*infographic*/
+
+        /****alle tekster indrammet til desktop så det ser pænt ud****/
+        #samlettext {
+            width: 50%;
+        }
+
+        #stortext {
+            font-weight: 700;
+        }
+
+        #infographic {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+
+        #infobillede {
+            height: 40%;
+            margin-left: 10%;
+            margin-top: 15%;
+        }
 
         #menu a {
             margin: 4%;
@@ -504,7 +527,14 @@ footer h3 {
             width: 35%;
         }
 
-
+        #textconspil {
+            width: 60%;
+            margin-left: 5%;
+        }
+        #pakcontext {
+            width: 60%;
+            margin-left: 5%;
+}
         #pakkerpriser {
             display: flex;
             width: 70%;
@@ -519,6 +549,8 @@ footer h3 {
             flex-direction: row;
             justify-content: space-evenly;
         }
+        
+        
 
 
 

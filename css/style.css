@@ -8,6 +8,7 @@
 body {
     background-image: url(images/limitless-baggrund.png);
     background-size: contain;
+    overflow-x: hidden;
 
 }
 
@@ -70,13 +71,10 @@ a {
 
 /*menu*/
 #menu {
-
+display: none;
     position: absolute;
     padding: 2%;
     width: 100%;
-
-
-
 }
 
 #menu a {
@@ -86,11 +84,49 @@ a {
 
 }
 
+
 a:hover {
     color: #ffa852;
 }
 
 
+/**mobile menu**/
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.7s;
+}
+.nav a {
+    display: block;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav .close {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+#contentmobile {
+    padding: 20px;
+    transition: margin-left 0.7s;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+}
 /*hero-image*/
 #hero {
     position: relative;
@@ -442,7 +478,14 @@ footer h3 {
         /*PC*/
         @media (min-width:1025px) {
 
-
+/*menu*/
+            #menu {
+                display: block;
+            }
+            
+            #contentmobile {
+                display: none;
+            }
             /*video*/
 
             #video {

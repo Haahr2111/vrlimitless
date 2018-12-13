@@ -6,7 +6,19 @@ onload = function () {
     document.getElementById(scheduleDays[DOW]).style.display = 'block';
 }
 
-var videoLimit = document.getElementById('video');
+
+/*****mobile menu*****/
+
+function openSlideMenu() {
+    document.getElementById('menumobile').style.width = '250px';
+    document.getElementById('contentmobile').style.marginLeft = '250px';
+}
+
+function closeSlideMenu() {
+    document.getElementById('menumobile').style.width = '0';
+    document.getElementById('contentmobile').style.marginLeft = '0';
+}
+
 
 (function ($) {
 
@@ -75,31 +87,31 @@ function hideVideo(e) {
 }*/
 'use strict';
 /**
-* file: isVideoVisibleOrNot.html
-* purpose: Er min video synlig nu?
-**/
+ * file: isVideoVisibleOrNot.html
+ * purpose: Er min video synlig nu?
+ **/
 
 // scroll-eventlistener
-window.addEventListener("scroll", function() {
-console.log('scroll ...'); // test
+window.addEventListener("scroll", function () {
+    console.log('scroll ...'); // test
 
-// hvis erJegHer er synlig, så ...
-if (elFllVsbl(video)) {
-console.log(elFllVsbl(video)); // test
+    // hvis erJegHer er synlig, så ...
+    if (elFllVsbl(video)) {
+        console.log(elFllVsbl(video)); // test
 
-if (!(doc.curentTime > 0)) {
-doc.load(); // load the video
-doc.play(); // play audio
-}
-} else {
-console.log(elFllVsbl(video)); // test
-doc.pause();
-doc.currentTime = 0; // rewind the sound
-}
+        if (!(doc.curentTime > 0)) {
+            doc.load(); // load the video
+            doc.play(); // play audio
+        }
+    } else {
+        console.log(elFllVsbl(video)); // test
+        doc.pause();
+        doc.currentTime = 0; // rewind the sound
+    }
 })
 
 // funktionen tester om videoen er synlig
 // og returnerer true eller false
 function elFllVsbl(el) {
-return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
+    return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
 }

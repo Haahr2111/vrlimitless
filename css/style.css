@@ -102,6 +102,12 @@ a:hover {
 
 #hero2 {
     width: 100%;
+    display: none;
+}
+
+#hero3 {
+    width: 100%;
+
 }
 
 #logo {
@@ -146,7 +152,16 @@ a:hover {
     margin: 5%;
 }
 
+/*til menu knap*/
 
+.tiltop {
+
+    position: absolute;
+    right:5%;
+    width: 6%;
+    margin: 1%;
+    
+}
 /*infograpic*/
 #infographic img {
     display: block;
@@ -358,6 +373,14 @@ footer h3 {
         width: 50%;
         top: 35%;
         left: 25%;
+    }
+    
+    #hero3 {
+        display: none;
+    }
+    
+    #hero2 {
+        display: block;
     }
 
 

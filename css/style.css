@@ -396,13 +396,11 @@ footer h3 {
 
         /****alle tekster indrammet til desktop så det ser pænt ud****/
         #samlettext {
-            width: 40%;
-
+            width: 50%;
         }
 
-        #samlettext p,
-        h2 {
-            width: 60%;
+        #stortext {
+            font-weight: 700;
         }
 
         #infographic {
@@ -414,13 +412,10 @@ footer h3 {
         #infobillede {
             height: 40%;
             margin-left: 10%;
+            margin-top: 15%;
         }
 
-        /*#samltext{
-            width: 50%;
-            margin-left: 4%;
-            margin-bottom: 5%;
-        }*/
+       
         /*hero*/
         #hero {
             display: block;
@@ -457,7 +452,7 @@ footer h3 {
         #omos img {
             width: 80%;
             margin-left: 10%;
-            margin-top: 5%;
+            margin-top: 17%;
         }
 
 

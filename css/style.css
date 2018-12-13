@@ -120,8 +120,8 @@ a:hover {
 /*video - limitless*/
 
 #video {
-    width: 100%;
-
+    height: 100%;
+    
 }
 
 /*Om os*/
@@ -432,7 +432,47 @@ footer h3 {
     /*PC*/
     @media (min-width:1025px) {
 
-       
+
+/*video*/
+        
+        #video{
+        width: 85%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        
+        
+        /****alle tekster indrammet til desktop så det ser pænt ud****/
+        #samlettext {
+            width: 40%;
+
+        }
+
+        #samlettext p,
+        h2 {
+            width: 60%;
+        }
+
+        #infographic {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+
+        #infobillede {
+            height: 40%;
+            margin-left: 10%;
+        }
+
+        /*#samltext{
+            width: 50%;
+            margin-left: 4%;
+            margin-bottom: 5%;
+        }*/
+
         /*hero*/
         #hero {
             display: block;

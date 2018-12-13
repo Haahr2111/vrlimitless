@@ -8,8 +8,6 @@
 body {
     background-image: url(images/limitless-baggrund.png);
     background-size: contain;
-    
-    scroll-snap-type: y mandatory;
 
 }
 

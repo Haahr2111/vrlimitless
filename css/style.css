@@ -8,12 +8,13 @@
 body {
     background-image: url(images/limitless-baggrund.png);
     background-size: contain;
-    
+    scroll-snap-type: y mandatory;
 }
 
 /*mellemrum imellem sections*/
 section {
     margin-top: 10%;
+    
 }
 
 /**box der slider ind animation**/

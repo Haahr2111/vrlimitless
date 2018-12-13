@@ -366,7 +366,9 @@ footer h3 {
     #menu a {
         font-size: 25px;
     }
-
+ #video {
+            width: 100%;
+        }
     #logo {
         width: 50%;
         top: 35%;
@@ -429,6 +431,10 @@ footer h3 {
         .tiltop {
             display: block;
         }
+        #video {
+            width: 100%;
+        }
+    }
 
         /*PC*/
         @media (min-width:1025px) {

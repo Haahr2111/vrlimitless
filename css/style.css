@@ -376,7 +376,11 @@ footer h3{
         display: block;
         width: 100%;
     }
-    
+        #logo {
+            width: 25%;
+            top:15%;
+            left:60%;
+        }
     #hero2 {
         display: none;
         width: 100%;

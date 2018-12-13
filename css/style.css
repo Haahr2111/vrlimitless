@@ -14,6 +14,7 @@ body {
 /*mellemrum imellem sections*/
 section {
     margin-top: 10%;
+    
 }
 
 /**box der slider ind animation**/
@@ -289,10 +290,25 @@ a:hover {
 
 /*footer*/
 footer #smlogo {
-    color: white
+    color: white;
 }
 
+#smlogo i {
+    margin: 5%;
+}
+
+
+footer h3 {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 10px;
+}
+    
+
 footer {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

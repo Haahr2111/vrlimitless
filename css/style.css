@@ -14,7 +14,7 @@ body {
 /*mellemrum imellem sections*/
 section {
     margin-top: 10%;
-    
+
 }
 
 /**box der slider ind animation**/
@@ -121,7 +121,7 @@ a:hover {
 
 #video {
     height: 100%;
-    
+
 }
 
 /*Om os*/
@@ -155,13 +155,14 @@ a:hover {
 /*til menu knap*/
 
 .tiltop {
-
+    display: none;
     position: absolute;
-    right:5%;
+    right: 5%;
     width: 6%;
     margin: 1%;
-    
+
 }
+
 /*infograpic*/
 #infographic img {
     display: block;
@@ -320,7 +321,7 @@ footer h3 {
 footer p {
     font-size: 10px;
 }
-    
+
 
 footer {
 
@@ -374,11 +375,11 @@ footer h3 {
         top: 35%;
         left: 25%;
     }
-    
+
     #hero3 {
         display: none;
     }
-    
+
     #hero2 {
         display: block;
     }
@@ -427,154 +428,159 @@ footer h3 {
             display: none;
             width: 100%;
         }
-    }
 
-    /*PC*/
-    @media (min-width:1025px) {
-
-
-/*video*/
-        
-        #video{
-        width: 85%;
+        .tiltop {
             display: block;
-            margin-left: auto;
-            margin-right: auto;
-            
-        }
-        
-        
-        
-        /****alle tekster indrammet til desktop så det ser pænt ud****/
-        #samlettext {
-            width: 40%;
-
         }
 
-        #samlettext p,
-        h2 {
-            width: 60%;
-        }
+        /*PC*/
+        @media (min-width:1025px) {
 
-        #infographic {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-between;
-        }
 
-        #infobillede {
-            height: 40%;
-            margin-left: 10%;
-        }
+            /*video*/
 
-        /*#samltext{
+            #video {
+                width: 85%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+
+
+            /****alle tekster indrammet til desktop så det ser pænt ud****/
+            #samlettext {
+                width: 40%;
+
+            }
+
+            #samlettext p,
+            h2 {
+                width: 60%;
+            }
+
+            #infographic {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            #infobillede {
+                height: 40%;
+                margin-left: 10%;
+            }
+
+            /*#samltext{
             width: 50%;
             margin-left: 4%;
             margin-bottom: 5%;
         }*/
 
-        /*hero*/
-        #hero {
-            display: block;
-            width: 100%;
-            margin-right: 0;
+            /*hero*/
+            #hero {
+                display: block;
+                width: 100%;
+                margin-right: 0;
+            }
+
+            #hero2 {
+                display: none;
+                width: 100%;
+                margin-right: 0;
+            }
+
+            #logo {
+                width: 20%;
+                top: 40%;
+                left: 65%;
+            }
+
+            /*menu*/
+
+
+            /*om os bro*/
+            #indhold {
+                width: 35%;
+            }
+
+            #omos {
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-between;
+            }
+
+            #omos img {
+                width: 80%;
+                margin-left: 10%;
+                margin-top: 17%;
+            }
+
+
+            /*infographic*/
+
+            /****alle tekster indrammet til desktop så det ser pænt ud****/
+            #samlettext {
+                width: 50%;
+            }
+
+            #stortext {
+                font-weight: 700;
+            }
+
+            #infographic {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+
+            #infobillede {
+                height: 40%;
+                margin-left: 10%;
+                margin-top: 15%;
+            }
+
+            #menu a {
+                margin: 4%;
+                text-decoration-line: none;
+                opacity: 1;
+                font-size: 15px;
+
+            }
+
+
+            /*spil/oplevelser*/
+            #spil {
+                width: 35%;
+            }
+
+            #textconspil {
+                width: 60%;
+                margin-left: 5%;
+            }
+
+            #pakcontext {
+                width: 60%;
+                margin-left: 5%;
+            }
+
+            #pakkerpriser {
+                display: flex;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
+            footer {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+
+
+
+
+
         }
-
-        #hero2 {
-            display: none;
-            width: 100%;
-            margin-right: 0;
-        }
-
-        #logo {
-            width: 20%;
-            top: 40%;
-            left: 65%;
-        }
-
-        /*menu*/
-
-
-        /*om os bro*/
-        #indhold {
-            width: 35%;
-        }
-
-        #omos {
-            display: flex;
-            flex-wrap: wrap;
-            align-content: space-between;
-        }
-
-        #omos img {
-            width: 80%;
-            margin-left: 10%;
-            margin-top: 17%;
-        }
-
-
-        /*infographic*/
-
-        /****alle tekster indrammet til desktop så det ser pænt ud****/
-        #samlettext {
-            width: 50%;
-        }
-
-        #stortext {
-            font-weight: 700;
-        }
-
-        #infographic {
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-between;
-        }
-
-        #infobillede {
-            height: 40%;
-            margin-left: 10%;
-            margin-top: 15%;
-        }
-
-        #menu a {
-            margin: 4%;
-            text-decoration-line: none;
-            opacity: 1;
-            font-size: 15px;
-            
-        }
-
-
-        /*spil/oplevelser*/
-        #spil {
-            width: 35%;
-        }
-
-        #textconspil {
-            width: 60%;
-            margin-left: 5%;
-        }
-        #pakcontext {
-            width: 60%;
-            margin-left: 5%;
-}
-        #pakkerpriser {
-            display: flex;
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-
-        footer {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
-        
-        
-
-
-
-    }

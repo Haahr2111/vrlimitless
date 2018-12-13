@@ -105,7 +105,9 @@ a:hover {
 
 #logo {
     position: absolute;
-    width: 20%;
+    width: 50%;
+    top: 30%;
+    left: 25%;
 }
 
 /*video - limitless*/
@@ -333,9 +335,9 @@ footer h3{
     /*hero*/
     
     #logo {
-        width: 20%;
-        top: 15%;
-        left: 65%;
+        width: 50%;
+        top: 35%;
+        left: 25%;
     }
     
  

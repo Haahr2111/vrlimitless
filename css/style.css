@@ -289,9 +289,20 @@ a:hover {
 
 /*footer*/
 footer #smlogo {
-    color: white
+    color: white;
 }
 
+#smlogo i {
+    margin: 5%;
+}
+
+footer h3 {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 10px;
+}
 footer {    
     display: flex;
     flex-wrap: wrap;

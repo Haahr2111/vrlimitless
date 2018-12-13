@@ -392,8 +392,11 @@ footer h3{
 
         
         /****alle tekster indrammet til desktop så det ser pænt ud****/
-        #infographic 
-        
+        #samltext{
+            width: 50%;
+            margin-left: 4%;
+            margin-bottom: 5%;
+        }
         /*hero*/
   #hero {
         display: block;
@@ -418,7 +421,6 @@ footer h3{
         /*om os bro*/
         #indhold{
             width: 35%;   
-            margin-left: 5%;
         }
         
         #omos {

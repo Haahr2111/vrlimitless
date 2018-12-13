@@ -376,7 +376,11 @@ footer h3{
         display: block;
         width: 100%;
     }
-    
+        #logo {
+            width: 25%;
+            top:15%;
+            left:60%;
+        }
     #hero2 {
         display: none;
         width: 100%;
@@ -388,8 +392,11 @@ footer h3{
 
         
         /****alle tekster indrammet til desktop så det ser pænt ud****/
-        #infographic 
-        
+        #samltext{
+            width: 50%;
+            margin-left: 4%;
+            margin-bottom: 5%;
+        }
         /*hero*/
   #hero {
         display: block;
@@ -414,7 +421,6 @@ footer h3{
         /*om os bro*/
         #indhold{
             width: 35%;   
-            margin-left: 5%;
         }
         
         #omos {
@@ -441,7 +447,7 @@ footer h3{
         }
         
         #menu a {
-
+font-size: 15px;
     margin: 4%;
     text-decoration-line: none;
     opacity: 1;

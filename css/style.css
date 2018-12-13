@@ -87,6 +87,7 @@ display: none;
 
 a:hover {
     color: #ffa852;
+   
 }
 
 
@@ -601,16 +602,13 @@ footer h3 {
             /*spil/oplevelser*/
             #spil {
                 width: 35%;
-                transition: transform .3s;
             }
-            #spil:hover {
-                transform: scale(1.2);
-            }
-
             #textconspil {
                 width: 60%;
                 margin-left: 5%;
             }
+            
+            /*pakker*/
 
             #pakcontext {
                 width: 60%;

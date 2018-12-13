@@ -334,6 +334,9 @@ footer h3{
 
     /*hero*/
     
+    #menu a {
+        font-size:25px;
+    }
     #logo {
         width: 50%;
         top: 35%;

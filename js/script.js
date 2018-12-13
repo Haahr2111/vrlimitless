@@ -58,9 +58,21 @@ win.scroll(function(event) {
       el.addClass("come-in"); 
     } 
   });
-  
+    
+    
 });
 
+/*video hover effekt*/
+
+var figure = $("#video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('doc', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('doc', this).get(0).pause(); 
+}
 
 
 

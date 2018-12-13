@@ -397,8 +397,9 @@ footer h3 {
         /****alle tekster indrammet til desktop så det ser pænt ud****/
         #samlettext {
             width: 40%;
-           
+
         }
+
         #samlettext p,
         h2 {
             width: 60%;
@@ -463,11 +464,13 @@ footer h3 {
         /*infographic*/
 
         #menu a {
-
             margin: 4%;
             text-decoration-line: none;
             opacity: 1;
+            font-size: 15px;
+            
         }
+
 
         /*spil/oplevelser*/
         #spil {

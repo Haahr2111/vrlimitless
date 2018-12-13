@@ -103,7 +103,7 @@ video.play();
 } else { 
 console.log(elFllVsbl(video)); // test 
 video.pause(); 
-video.currentTime = 0; // rewind the sound 
+
 } 
 }) 
 

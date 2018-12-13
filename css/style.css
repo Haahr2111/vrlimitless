@@ -366,7 +366,7 @@ footer h3{
 
     }
 
-    @media (min-width:600) {
+    @media (min-width:850px) {
         #hero {
         display: block;
     }
@@ -380,7 +380,13 @@ footer h3{
     @media (min-width:1025px) {
 
         /*hero*/
-
+  #hero {
+        display: block;
+    }
+    
+    #hero2 {
+        display: none;
+    }
         #logo {
             width: 20%;
             top: 40%;

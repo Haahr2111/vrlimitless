@@ -592,13 +592,10 @@ footer h3 {
 
             #menu a {
                 margin: 4%;
-                text-decoration-line: none;
-                opacity: 1;
                 font-size: 15px;
-
             }
 
-
+            
             /*spil/oplevelser*/
             #spil {
                 width: 35%;
@@ -609,6 +606,13 @@ footer h3 {
             }
             
             /*pakker*/
+            #button {
+                transition: transform .3s;
+            }
+            
+            #button:hover {
+                 transform: scale(1.2); 
+            }
 
             #pakcontext {
                 width: 60%;

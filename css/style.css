@@ -90,7 +90,12 @@ a:hover {
    
 }
 
-
+/**åbningstider**/
+.Schedule h2 {
+    color: white;
+    display: none;
+    font-size: 15px;
+}
 /**mobile menu**/
 
 .nav {
@@ -379,23 +384,10 @@ footer h3 {
     margin-bottom: 10px
 }
 
-/*mobil*/
 
 
-/*åbningstider*/
-.Schedule {
-    position: absolute;
-    bottom: 0%;
-    left: 5%;
-    margin-top: -100px;
-    width: 200px;
-    display: none;
-}
 
-.Schedule h2 {
-    color: white;
-    display: none;
-}
+
 
 
 /*taplet*/
@@ -436,8 +428,6 @@ footer h3 {
     /*åbningstider*/
     .Schedule {
         margin-top: 1px;
-        height: 50px;
-        width: 300px;
         display: none;
     }
 
@@ -474,6 +464,19 @@ footer h3 {
         #video {
             width: 100%;
         }
+        
+        /*åbningstider*/
+.Schedule {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    width: 20%;
+}
+
+.Schedule h2 {
+    display: block;
+   
+}
     }
 
         /*PC*/
@@ -497,7 +500,12 @@ footer h3 {
 
             }
 
-
+ /*åbningstider*/
+            .Schedule {
+                top: 90%;
+                width: 25%;
+                right: 7%;
+            }
 
             /****alle tekster indrammet til desktop så det ser pænt ud****/
             #samlettext {

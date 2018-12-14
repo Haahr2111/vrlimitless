@@ -605,6 +605,13 @@ footer h3 {
                 margin-left: 5%;
             }
             
+            .hover_scale {
+                transition: transform .2s; /* Animation */
+            }
+            .hover_scale:hover {
+                 transform: scale(1.2);
+            }
+            
             /*pakker*/
             #button {
                 transition: transform .3s;

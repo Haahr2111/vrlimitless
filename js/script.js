@@ -48,8 +48,12 @@ function closeSlideMenu() {
         return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
 
     };
+    
+    
+
 
 })(jQuery);
+
 
 var win = $(window);
 
@@ -112,3 +116,5 @@ video.pause();
 function elFllVsbl(el) { 
 return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight); 
 } 
+
+

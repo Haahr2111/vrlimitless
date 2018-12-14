@@ -529,11 +529,11 @@ footer h3 {
                 margin-left: 10%;
             }
 
-            /*#samltext{
+            #samltext{
             width: 50%;
             margin-left: 4%;
             margin-bottom: 5%;
-        }*/
+        }
 
             /*hero*/
             #hero {
@@ -554,7 +554,7 @@ footer h3 {
                 left: 65%;
             }
 
-            /*menu*/
+           
 
 
             /*om os bro*/
@@ -613,14 +613,12 @@ footer h3 {
                 margin-left: 5%;
             }
             
-            .hover_scale {
-                transition: transform .2s; /* Animation */
-            }
-            .hover_scale:hover {
-                 transform: scale(1.2);
-            }
+            
+         
             
             /*pakker*/
+            
+               /* Hover scale animation taget fra https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
             #button {
                 transition: transform .3s;
             }

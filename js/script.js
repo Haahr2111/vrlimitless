@@ -48,8 +48,8 @@ function closeSlideMenu() {
         return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
 
     };
-    
-    
+
+
 
 
 })(jQuery);
@@ -92,29 +92,27 @@ function hideVideo(e) {
 'use strict';
 
 // scroll-eventlistener 
-window.addEventListener("scroll", function() { 
-console.log('nu scrolles der ...'); // test 
+window.addEventListener("scroll", function () {
+    console.log('nu scrolles der ...'); // test 
 
-$("video").prop('muted', true); //muted
-// hvis erJegHer er synlig, så ... 
-if (elFllVsbl(video)) { 
-console.log(elFllVsbl(video)); // sender true nå video er visible 
+    $("video").prop('muted', true); //muted
+    // hvis erJegHer er synlig, så ... 
+    if (elFllVsbl(video)) {
+        console.log(elFllVsbl(video)); // sender true nå video er visible 
 
-if (!(video.curentTime > 0)) { 
-video.load(); // load the videovideo.play(); // play audio 
-video.play(); 
-} 
-} else { 
-console.log(elFllVsbl(video)); // test 
-video.pause(); 
+        if (!(video.curentTime > 0)) {
+            video.load(); // load the videovideo.play(); // play audio 
+            video.play();
+        }
+    } else {
+        console.log(elFllVsbl(video)); // test 
+        video.pause();
 
-} 
-}) 
+    }
+})
 
 // funktionen tester om videoen er synlig 
 // og returnerer true eller false 
-function elFllVsbl(el) { 
-return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight); 
-} 
-
-
+function elFllVsbl(el) {
+    return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
+}

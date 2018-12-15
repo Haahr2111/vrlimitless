@@ -74,12 +74,11 @@ a {
 #menu {
     display: none;
     position: absolute;
-    padding: 2%;
+    padding-top: 3%;
     width: 100%;
 }
 
 #menu a {
-
     margin: 5%;
     text-decoration-line: none;
     font-family: 'orbitron', sans-serif;
@@ -485,6 +484,8 @@ footer h3 {
         /*menu*/
         #menu {
             display: block;
+            
+            
         }
 
         #contentmobile {

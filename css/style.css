@@ -605,7 +605,8 @@ footer h3 {
 
         /*spil/oplevelser*/
         .spil {
-            width: 35%;
+            width: 30%;
+            margin:5%;
         }
 
         #textconspil {

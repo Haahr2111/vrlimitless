@@ -417,6 +417,47 @@ select {
     color: #32338e;
 }
 
+.next {
+   position: absolute;
+text-decoration: none;
+    font-family: 'orbitron', sans-serif;
+    font-size: 25px;
+    color: #ffa852;
+bottom: 5%;
+    right: 5%;
+    
+}
+
+.back {
+       position: absolute;
+text-decoration: none;
+    font-family: 'orbitron', sans-serif;
+    font-size: 25px;
+    color: #ffa852;
+bottom: 5%;
+    left: 5%;
+}
+
+.next:hover {
+    color: #4d64ab;
+}
+
+.back:hover {
+    color: #4d64ab;
+}
+
+/*style option liste trin3*/
+
+.hiddenfield {
+    display: none;
+}
+
+.hiddenfield p {
+    position: relative;
+    width: 20%;
+    left: 40%;
+    margin-top: 2%;
+}
 
 /*taplet*/
 @media (min-width:420px) {

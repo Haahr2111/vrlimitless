@@ -1,4 +1,4 @@
-<!--Javascript taget fra https://www.codingforums.com/javascript-programming/222935-automatically-changing-text-daily-code.html-->
+//Javascript taget fra www.codingforums.com/javascript-programming/222935-automatically-changing-text-daily-code.html-->
 var scheduleDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 onload = function () {
     var today = new Date();
@@ -6,7 +6,30 @@ onload = function () {
     document.getElementById(scheduleDays[DOW]).style.display = 'block';
 }
 
+//liste teskt show and hide når selected trin 3 booking
+ $(document).ready(function(){
+     $('#myOptions').change(function(){
+        $(this).val() == "option1" ? $('#demo1').show() : $('#demo1').hide();
+     });
+   });
 
+$(document).ready(function(){
+     $('#myOptions').change(function(){
+        $(this).val() == "option2" ? $('#demo2').show() : $('#demo2').hide();
+     });
+   });
+
+$(document).ready(function(){
+     $('#myOptions').change(function(){
+        $(this).val() == "option3" ? $('#demo3').show() : $('#demo3').hide();
+     });
+   });
+
+$(document).ready(function(){
+     $('#myOptions').change(function(){
+        $(this).val() == "option4" ? $('#demo4').show() : $('#demo4').hide();
+     });
+   });
 /*****mobile menu*****/
 
 function openSlideMenu() {
@@ -116,3 +139,7 @@ window.addEventListener("scroll", function () {
 function elFllVsbl(el) {
     return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
 }
+
+
+
+

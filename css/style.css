@@ -389,6 +389,34 @@ footer h3 {
     margin-bottom: 10px
 }
 
+/*booking style*/
+
+.btrin {
+    position: absolute;
+    width: 60%;
+    top: 10%;
+    left: 20%;
+}
+
+.trin-overskrift {
+    text-align: center;
+    margin-top: 15%;
+}
+.booking h1 {
+    font-size: 30px;
+}
+
+select {
+    position: relative;
+    width: 20%;
+    padding: 1%;
+    left: 40%;
+    background-color: #8fb1be;
+    border-color: #4d64ab;
+    font-size: 20px;
+    color: #32338e;
+}
+
 
 /*taplet*/
 @media (min-width:420px) {

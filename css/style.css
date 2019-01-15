@@ -402,6 +402,9 @@ footer h3 {
     text-align: center;
     margin-top: 15%;
 }
+
+
+
 .booking h1 {
     font-size: 30px;
 }
@@ -418,23 +421,23 @@ select {
 }
 
 .next {
-   position: absolute;
-text-decoration: none;
+    position: absolute;
+    text-decoration: none;
     font-family: 'orbitron', sans-serif;
     font-size: 25px;
     color: #ffa852;
-bottom: 5%;
+    bottom: 5%;
     right: 5%;
-    
+
 }
 
 .back {
-       position: absolute;
-text-decoration: none;
+    position: absolute;
+    text-decoration: none;
     font-family: 'orbitron', sans-serif;
     font-size: 25px;
     color: #ffa852;
-bottom: 5%;
+    bottom: 5%;
     left: 5%;
 }
 
@@ -458,6 +461,154 @@ bottom: 5%;
     left: 40%;
     margin-top: 2%;
 }
+
+/*style booking trin 4*/
+#bookinginfo {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 20%;
+}
+
+.navninfo input {
+    height: 35px;
+    width: 100%;
+    color: #32338e;
+}
+
+.udfyldnv {
+    font-size: 20px;
+}
+
+.done {
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    background-color: #ffa852;
+    color: white;
+    font-family: 'orbitron', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+     bottom: 5%;
+    right: 5%;
+     transition: transform .3s;
+}
+.done:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+
+/*kalender https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_calendar*/
+#kalender {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    top: 20%;
+    margin-top: 5%;
+}
+
+#kalender h2 {
+    font-size: 20px;
+    margin-bottom: 10%
+}
+
+.month {
+    padding: 10px 25px;
+    width: 100%;
+    background: #4d64ab;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+.days li:hover {
+    background-color: #df9a55;
+    color: white;
+}
+
+/*trin 4 vælg tid*/
+#vaelgtid {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    margin-top: 5%;
+    width: 20%;
+}
+
+#vaelgtid h2 {
+    font-size: 20px;
+}
+
+.tid {
+    padding: 10px 0;
+}
+
+.tid li {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    width: 25%;
+    margin: 1%;
+    margin-top: 5%;
+    background-color: #191919;
+    color: white;
+}
+
+.tid li:hover {
+    background-color: #df9a55;
+}
+
 
 /*taplet*/
 @media (min-width:420px) {
@@ -553,8 +704,8 @@ bottom: 5%;
         /*menu*/
         #menu {
             display: block;
-            
-            
+
+
         }
 
         #contentmobile {
@@ -675,7 +826,7 @@ bottom: 5%;
         /*spil/oplevelser*/
         .spil {
             width: 30%;
-            margin:5%;
+            margin: 5%;
         }
 
         #textconspil {

@@ -510,49 +510,44 @@ select {
 }
 
 #kalender h2 {
+    text-align: center;
     font-size: 20px;
-    margin-bottom: 10%
+    margin-bottom: 10%;
+    width: 90%;
 }
 
 .month {
-    padding: 10px 25px;
+    padding: 10px 5px;
     width: 100%;
-    background: #4d64ab;
+    background:#484e9d;
     text-align: center;
 }
 
 .month ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .month ul li {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
 
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
 
 .weekdays {
     margin: 0;
     padding: 10px 0;
-    background-color: #ddd;
+    background-color:#4d64ab;
 }
 
 .weekdays li {
     display: inline-block;
     width: 13%;
-    color: #666;
+    color: white;
     text-align: center;
 }
 
@@ -588,6 +583,8 @@ select {
 
 #vaelgtid h2 {
     font-size: 20px;
+    text-align: center;
+     width: 70%;
 }
 
 .tid {
